@@ -1500,7 +1500,7 @@
   ],
   "children": []
 }"""
-"File: liftmcu.csolution.yml" = """
+"File: liftmcufirmwarecfg.csolution.yml" = """
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/csolution.schema.json
 solution:
   output-dirs:
@@ -1532,7 +1532,7 @@ solution:
     - type: STM32C552CEU6
       device: STM32C552CEU6
   projects:
-    - project: project/liftmcu.cproject.yml
+    - project: project/liftmcufirmwarecfg.cproject.yml
   packs:
     - pack: STMicroelectronics::CMSIS@6.3.0
     - pack: STMicroelectronics::freertos@2.2.0
@@ -1548,7 +1548,7 @@ solution:
       "id": "4e6cd34a-4e3d-44f6-bd37-e3b7b14dfeb3",
       "name": "application",
       "files": [
-        "liftmcu.csolution.yml"
+        "liftmcufirmwarecfg.csolution.yml"
       ]
     }
   ],
@@ -4261,7 +4261,7 @@ solution:
     "version": 2
   }
 }"""
-"File: project/liftmcu.cproject.yml" = """
+"File: project/liftmcufirmwarecfg.cproject.yml" = """
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/cproject.schema.json
 project:
   processor:
@@ -4557,7 +4557,7 @@ project:
       "id": "221b8ddd-b2b7-4a03-94c0-e5989cd20a84",
       "name": "component",
       "files": [
-        "liftmcu.cproject.yml"
+        "liftmcufirmwarecfg.cproject.yml"
       ]
     }
   ],
@@ -4565,6 +4565,6 @@ project:
 }"""
 
 ["Project Description"]
-workingAreaId = "2d416834-79f7-45e8-9c8d-4e7c273cac7b"
+workingAreaId = "657fd253-a239-461c-80dd-cae565248cb8"
 version = "1"
 mx2Version = "1.1.2"
